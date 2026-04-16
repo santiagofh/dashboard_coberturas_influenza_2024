@@ -2,8 +2,6 @@ from io import BytesIO
 from pathlib import Path
 
 import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
 import streamlit as st
 
 
@@ -226,62 +224,35 @@ def build_home_info_table(summary: pd.DataFrame) -> pd.DataFrame:
     )
 
 
-def build_home_chart(summary: pd.DataFrame) -> go.Figure:
-    ordered_groups = summary["Grupo"].tolist()
-    fig = px.bar(
-        summary,
-        x="cobertura_pct",
-        y="Grupo",
-        orientation="h",
-        text="cobertura_pct",
-        color="cobertura_pct",
-        color_continuous_scale=["#A7D3F3", "#2E75B6", "#1F4E79"],
+def render_home_chart(summary: pd.DataFrame):
+    chart_df = (
+        summary.loc[:, ["Grupo", "cobertura_pct"]]
+        .rename(columns={"Grupo": "Grupo objetivo", "cobertura_pct": "Cobertura (%)"})
+        .set_index("Grupo objetivo")
     )
-    fig.update_traces(texttemplate="%{text:.2f}%", textposition="outside")
-    fig.update_layout(
+    st.bar_chart(
+        chart_df,
+        horizontal=True,
+        color="#1F4E79",
         height=620,
-        margin=dict(l=20, r=20, t=20, b=20),
-        coloraxis_showscale=False,
-        xaxis_title="Cobertura (%)",
-        yaxis_title="Grupo objetivo",
-        plot_bgcolor="white",
-        paper_bgcolor="white",
     )
-    fig.update_xaxes(showgrid=True, gridcolor="#D9E6F2")
-    fig.update_yaxes(showgrid=False, categoryorder="array", categoryarray=list(reversed(ordered_groups)))
-    return fig
 
 
-def build_total_chart(group_name: str, total_denominador: float, total_vacunados: float) -> go.Figure:
-    fig = go.Figure()
-    fig.add_bar(
-        x=[group_name],
-        y=[total_denominador],
-        name="Poblacion objetivo",
-        marker_color="#9CC3E5",
-        text=[format_int(total_denominador)],
-        textposition="outside",
-    )
-    fig.add_bar(
-        x=[group_name],
-        y=[total_vacunados],
-        name="Vacunas administradas",
-        marker_color="#1F4E79",
-        text=[format_int(total_vacunados)],
-        textposition="outside",
-    )
-    fig.update_layout(
-        barmode="group",
+def render_total_chart(group_name: str, total_denominador: float, total_vacunados: float):
+    chart_df = pd.DataFrame(
+        {
+            "Serie": ["Poblacion objetivo", "Vacunas administradas"],
+            "Total": [total_denominador, total_vacunados],
+        }
+    ).set_index("Serie")
+    st.bar_chart(
+        chart_df,
+        color="#1F4E79",
         height=430,
-        margin=dict(l=20, r=20, t=30, b=20),
-        xaxis_title="Campana",
-        yaxis_title="Personas",
-        legend_title="Serie",
-        plot_bgcolor="white",
-        paper_bgcolor="white",
     )
-    fig.update_yaxes(showgrid=True, gridcolor="#D9E6F2")
-    return fig
+    caption_cols = st.columns(2)
+    caption_cols[0].caption(f"{group_name} · Poblacion objetivo: {format_int(total_denominador)}")
+    caption_cols[1].caption(f"{group_name} · Vacunas administradas: {format_int(total_vacunados)}")
 
 
 def render_info_box(group_id: str, group_df: pd.DataFrame):
@@ -328,7 +299,7 @@ def render_home_page():
     col3.metric("Grupos monitoreados", format_int(total_groups))
 
     st.markdown("### Cobertura (%) segun grupo objetivo")
-    st.plotly_chart(build_home_chart(home_summary), use_container_width=True)
+    render_home_chart(home_summary)
 
     summary_view = home_summary.rename(
         columns={
@@ -407,10 +378,7 @@ def render_group_page(group_id: str):
     )
 
     st.markdown("### Poblacion objetivo total y vacunas administradas")
-    st.plotly_chart(
-        build_total_chart(group_name, total_denominador, total_vacunados),
-        use_container_width=True,
-    )
+    render_total_chart(group_name, total_denominador, total_vacunados)
 
     render_info_box(group_id, group_df)
 
