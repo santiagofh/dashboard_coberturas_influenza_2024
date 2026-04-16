@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 
 st.set_page_config(
-    page_title="Dashboard Campana Influenza 2024",
+    page_title="Dashboard Campaña Influenza 2024",
     layout="wide",
     initial_sidebar_state="expanded",
 )

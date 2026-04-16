@@ -12,33 +12,33 @@ OUTPUT_DIR = BASE_DIR / "output"
 DATA_PATH = OUTPUT_DIR / "cobertura_influenza_2024_rm.csv"
 
 GROUP_LABELS = {
-    "adultos_60_mas": "Adultos de 65 y mas",
-    "cronicos_11_59": "Enfermos cronicos",
+    "adultos_60_mas": "Adultos de 65 y más",
+    "cronicos_11_59": "Enfermos crónicos",
     "cuidadores_adulto_mayor_eleam": "Cuidadores de adultos mayores y funcionarios ELEAM",
     "embarazadas": "Embarazadas",
     "estrategia_capullo": "Estrategia Capullo",
-    "ninos_6_10_anios": "Ninos de 1 a 5to basico",
-    "ninos_6m_5basico": "Ninos de 6 meses a 5 anos",
+    "ninos_6_10_anios": "Niños de 1° a 5° básico",
+    "ninos_6m_5basico": "Niños de 6 meses a 5 años",
     "otras_prioridades": "Otras prioridades",
     "salud_privado": "P. de salud privado",
-    "salud_publico": "P. de salud publico",
-    "trab_avicolas_cerdos": "Trabajadores avicolas",
-    "trab_educacion": "Trabajadores de la educ.",
+    "salud_publico": "P. de salud público",
+    "trab_avicolas_cerdos": "Trabajadores avícolas",
+    "trab_educacion": "Trabajadores de la educación",
 }
 
 GROUP_INFO = {
-    "adultos_60_mas": "Cobertura en poblacion de residencia. Sirve para seguir el avance de proteccion en personas mayores.",
-    "cronicos_11_59": "Cobertura en personas con patologias cronicas. Puede superar 100% por diferencias entre registros administrados y denominador oficial.",
+    "adultos_60_mas": "Cobertura en población de residencia. Sirve para seguir el avance de protección en personas mayores.",
+    "cronicos_11_59": "Cobertura en personas con patologías crónicas. Puede superar 100% por diferencias entre registros administrados y denominador oficial.",
     "cuidadores_adulto_mayor_eleam": "Cobertura en cuidadores y funcionarios de ELEAM, medida con criterio de ocurrencia.",
-    "embarazadas": "Cobertura en embarazadas con criterio de residencia, clave para proteccion materno infantil.",
+    "embarazadas": "Cobertura en embarazadas con criterio de residencia, clave para protección materno infantil.",
     "estrategia_capullo": "Cobertura en estrategia Capullo, orientada a proteger entornos de mayor riesgo.",
-    "ninos_6_10_anios": "Cobertura en ninos de 6 a 10 anos con criterio de ocurrencia.",
-    "ninos_6m_5basico": "Cobertura en ninos desde 6 meses hasta 5 basico con criterio de residencia.",
+    "ninos_6_10_anios": "Cobertura en niños de 6 a 10 años con criterio de ocurrencia.",
+    "ninos_6m_5basico": "Cobertura en niños desde 6 meses hasta 5° básico con criterio de residencia.",
     "otras_prioridades": "Cobertura del grupo otras prioridades, medido con criterio de ocurrencia.",
     "salud_privado": "Cobertura en personal de salud del sector privado.",
-    "salud_publico": "Cobertura en personal de salud del sector publico.",
-    "trab_avicolas_cerdos": "Cobertura en trabajadores avicolas y criaderos de cerdo.",
-    "trab_educacion": "Cobertura en trabajadores de la educacion preescolar y escolar hasta 8 basico.",
+    "salud_publico": "Cobertura en personal de salud del sector público.",
+    "trab_avicolas_cerdos": "Cobertura en trabajadores avícolas y criaderos de cerdo.",
+    "trab_educacion": "Cobertura en trabajadores de la educación preescolar y escolar hasta 8° básico.",
 }
 
 ACCENT_REPLACEMENTS = str.maketrans(
@@ -87,7 +87,7 @@ def slugify(text: str) -> str:
 @st.cache_data(show_spinner=False)
 def load_data() -> pd.DataFrame:
     if not DATA_PATH.exists():
-        raise FileNotFoundError(f"No se encontro el archivo de datos: {DATA_PATH}")
+        raise FileNotFoundError(f"No se encontró el archivo de datos: {DATA_PATH}")
 
     df = pd.read_csv(DATA_PATH)
     required = {"COMUNA", "grupo", "vacunados", "denominador", "cobertura_pct"}
@@ -157,10 +157,10 @@ def build_commune_table(group_df: pd.DataFrame) -> pd.DataFrame:
         columns={
             "Comuna": "Comuna",
             "vacunados": "Vacunas administradas",
-            "denominador": "Poblacion objetivo",
+            "denominador": "Población objetivo",
             "cobertura_pct": "Cobertura (%)",
         }
-    )[["Comuna", "Cobertura (%)", "Poblacion objetivo", "Vacunas administradas"]].copy()
+    )[["Comuna", "Cobertura (%)", "Población objetivo", "Vacunas administradas"]].copy()
 
     table_df.insert(0, "Marca", "")
     if not table_df.empty:
@@ -177,8 +177,8 @@ def build_totals_table(group_name: str, total_denominador: float, total_vacunado
     return pd.DataFrame(
         [
             {
-                "Campana": group_name,
-                "Poblacion objetivo total": int(round(total_denominador)),
+                "Campaña": group_name,
+                "Población objetivo total": int(round(total_denominador)),
                 "Vacunas administradas": int(round(total_vacunados)),
                 "Cobertura total (%)": round(total_cobertura, 2),
             }
@@ -191,7 +191,7 @@ def build_group_info_table(total_cobertura: float, total_denominador: float, tot
         [
             {"Indicador": "Cobertura regional", "Valor": round(total_cobertura, 2)},
             {"Indicador": "Vacunas administradas", "Valor": int(round(total_vacunados))},
-            {"Indicador": "Poblacion objetivo", "Valor": int(round(total_denominador))},
+            {"Indicador": "Población objetivo", "Valor": int(round(total_denominador))},
         ]
     )
 
@@ -203,9 +203,9 @@ def build_home_totals_table(summary: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(
         [
             {
-                "Ambito": "Region Metropolitana",
+                "Ámbito": "Región Metropolitana",
                 "Grupos monitoreados": int(summary["grupo_id"].nunique()),
-                "Poblacion objetivo total": int(round(total_denominador)),
+                "Población objetivo total": int(round(total_denominador)),
                 "Vacunas administradas": int(round(total_vacunados)),
                 "Cobertura total (%)": round(total_cobertura, 2),
             }
@@ -220,7 +220,7 @@ def build_home_info_table(summary: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(
         [
             {"Indicador": "Vacunas administradas", "Valor": int(round(total_vacunados))},
-            {"Indicador": "Poblacion objetivo", "Valor": int(round(total_denominador))},
+            {"Indicador": "Población objetivo", "Valor": int(round(total_denominador))},
             {"Indicador": "Grupos monitoreados", "Valor": int(total_groups)},
         ]
     )
@@ -257,7 +257,7 @@ def build_total_chart(group_name: str, total_denominador: float, total_vacunados
     fig.add_bar(
         x=[group_name],
         y=[total_denominador],
-        name="Poblacion objetivo",
+        name="Población objetivo",
         marker_color="#9CC3E5",
         text=[format_int(total_denominador)],
         textposition="outside",
@@ -274,7 +274,7 @@ def build_total_chart(group_name: str, total_denominador: float, total_vacunados
         barmode="group",
         height=430,
         margin=dict(l=20, r=20, t=30, b=20),
-        xaxis_title="Campana",
+        xaxis_title="Campaña",
         yaxis_title="Personas",
         legend_title="Serie",
         plot_bgcolor="white",
@@ -293,9 +293,9 @@ def render_info_box(group_id: str, group_df: pd.DataFrame):
 
     st.markdown(
         f"""
-        <div class="info-card">
+            <div class="info-card">
             <div class="info-card-title">Resumen del grupo</div>
-            <p><strong>Descripcion:</strong> {GROUP_INFO.get(group_id, "Sin descripcion adicional.")}</p>
+            <p><strong>Descripción:</strong> {GROUP_INFO.get(group_id, "Sin descripción adicional.")}</p>
             <p><strong>Cobertura regional:</strong> {format_pct(total_cobertura)}</p>
             <p><strong>Vacunas administradas:</strong> {format_int(total_vacunados)} de {format_int(total_denominador)} personas objetivo.</p>
             <p><strong>Comuna con mayor cobertura:</strong> {top_row["Comuna"]} ({format_pct(top_row["cobertura_pct"])})</p>
@@ -315,8 +315,8 @@ def render_home_page():
         .drop(columns="order")
     )
 
-    st.title("Dashboard Campana Influenza 2024")
-    st.caption("Cobertura de vacunacion contra la influenza por grupo objetivo en la Region Metropolitana.")
+    st.title("Dashboard Campaña Influenza 2024")
+    st.caption("Cobertura de vacunación contra la influenza por grupo objetivo en la Región Metropolitana.")
 
     col1, col2, col3 = st.columns(3)
     total_vacunados = summary["vacunados"].sum()
@@ -324,7 +324,7 @@ def render_home_page():
     total_groups = summary["grupo_id"].nunique()
 
     col1.metric("Vacunas administradas", format_int(total_vacunados))
-    col2.metric("Poblacion objetivo", format_int(total_denominador))
+    col2.metric("Población objetivo", format_int(total_denominador))
     col3.metric("Grupos monitoreados", format_int(total_groups))
 
     st.markdown("### Cobertura (%) segun grupo objetivo")
@@ -334,7 +334,7 @@ def render_home_page():
         columns={
             "Grupo": "Grupo objetivo",
             "vacunados": "Vacunas administradas",
-            "denominador": "Poblacion objetivo",
+            "denominador": "Población objetivo",
             "cobertura_pct": "Cobertura (%)",
         }
     )
@@ -345,7 +345,7 @@ def render_home_page():
         column_config={
             "Grupo objetivo": st.column_config.TextColumn(width="large"),
             "Vacunas administradas": st.column_config.NumberColumn(format="%d"),
-            "Poblacion objetivo": st.column_config.NumberColumn(format="%d"),
+            "Población objetivo": st.column_config.NumberColumn(format="%d"),
             "Cobertura (%)": st.column_config.NumberColumn(format="%.2f%%"),
         },
     )
@@ -371,14 +371,14 @@ def render_group_page(group_id: str):
     group_df = df[df["grupo_id"] == group_id].copy()
 
     if group_df.empty:
-        st.error("No hay datos disponibles para esta campana.")
+        st.error("No hay datos disponibles para esta campaña.")
         st.stop()
 
     group_name = group_df["Grupo"].iloc[0]
     group_df = group_df.sort_values("cobertura_pct", ascending=False).reset_index(drop=True)
 
-    st.title(f"Campana Influenza 2024 · {group_name}")
-    st.caption("Detalle comunal de cobertura, poblacion objetivo y vacunas administradas.")
+    st.title(f"Campaña Influenza 2024 · {group_name}")
+    st.caption("Detalle comunal de cobertura, población objetivo y vacunas administradas.")
 
     total_vacunados = group_df["vacunados"].sum()
     total_denominador = group_df["denominador"].sum()
@@ -387,7 +387,7 @@ def render_group_page(group_id: str):
     metric1, metric2, metric3 = st.columns(3)
     metric1.metric("Cobertura regional", format_pct(total_cobertura))
     metric2.metric("Vacunas administradas", format_int(total_vacunados))
-    metric3.metric("Poblacion objetivo", format_int(total_denominador))
+    metric3.metric("Población objetivo", format_int(total_denominador))
 
     st.markdown("### Comunas y cobertura")
     table_df = build_commune_table(group_df)
@@ -401,12 +401,12 @@ def render_group_page(group_id: str):
             "Marca": st.column_config.TextColumn(width="small", help="🔴 Mayor cobertura · 🟠 Menor cobertura"),
             "Comuna": st.column_config.TextColumn(width="medium"),
             "Cobertura (%)": st.column_config.NumberColumn(format="%.2f%%"),
-            "Poblacion objetivo": st.column_config.NumberColumn(format="%d"),
+            "Población objetivo": st.column_config.NumberColumn(format="%d"),
             "Vacunas administradas": st.column_config.NumberColumn(format="%d"),
         },
     )
 
-    st.markdown("### Poblacion objetivo total y vacunas administradas")
+    st.markdown("### Población objetivo total y vacunas administradas")
     st.plotly_chart(
         build_total_chart(group_name, total_denominador, total_vacunados),
         use_container_width=True,
