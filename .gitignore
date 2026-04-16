@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+.DS_Store
+Thumbs.db
+
+.streamlit/secrets.toml
+
+duplicados_unicos_influenza.xlsx
+Influenza 2024 - Dashboard Campaña.rar
+
+output/numerador_influenza_2024_rm.csv
+output/sin_filtro/
+
+NA/

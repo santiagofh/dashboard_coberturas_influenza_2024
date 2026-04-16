@@ -1,0 +1,625 @@
+COMUNA,grupo,vacunados,denominador,cobertura_pct
+Alhué,adultos_60_mas,1268,1483,85.5
+Alhué,cronicos_11_59,1482,1217,121.77
+Alhué,cuidadores_adulto_mayor_eleam,79,32,246.88
+Alhué,embarazadas,53,109,48.62
+Alhué,estrategia_capullo,85,24,354.17
+Alhué,ninos_6_10_anios,572,483,118.43
+Alhué,ninos_6m_5basico,648,553,117.18
+Alhué,otras_prioridades,217,196,110.71
+Alhué,salud_privado,7,6,116.67
+Alhué,salud_publico,145,139,104.32
+Alhué,trab_avicolas_cerdos,6,6,100.0
+Alhué,trab_educacion,132,77,171.43
+Buin,adultos_60_mas,12116,17436,69.49
+Buin,cronicos_11_59,9915,8825,112.35
+Buin,cuidadores_adulto_mayor_eleam,371,331,112.08
+Buin,embarazadas,834,1291,64.6
+Buin,estrategia_capullo,219,408,53.68
+Buin,ninos_6_10_anios,7066,8238,85.77
+Buin,ninos_6m_5basico,8331,9179,90.76
+Buin,otras_prioridades,2016,1473,136.86
+Buin,salud_privado,518,450,115.11
+Buin,salud_publico,1337,1360,98.31
+Buin,trab_avicolas_cerdos,233,289,80.62
+Buin,trab_educacion,1627,1366,119.11
+Calera de Tango,adultos_60_mas,3924,5014,78.26
+Calera de Tango,cronicos_11_59,2266,1659,136.59
+Calera de Tango,cuidadores_adulto_mayor_eleam,158,182,86.81
+Calera de Tango,embarazadas,145,187,77.54
+Calera de Tango,estrategia_capullo,56,75,74.67
+Calera de Tango,ninos_6_10_anios,1824,2018,90.39
+Calera de Tango,ninos_6m_5basico,1480,2037,72.66
+Calera de Tango,otras_prioridades,418,315,132.7
+Calera de Tango,salud_privado,67,60,111.67
+Calera de Tango,salud_publico,262,189,138.62
+Calera de Tango,trab_avicolas_cerdos,28,45,62.22
+Calera de Tango,trab_educacion,401,415,96.63
+Cerrillos,adultos_60_mas,11487,16460,69.79
+Cerrillos,cronicos_11_59,9702,6916,140.28
+Cerrillos,cuidadores_adulto_mayor_eleam,307,146,210.27
+Cerrillos,embarazadas,666,777,85.71
+Cerrillos,estrategia_capullo,118,192,61.46
+Cerrillos,ninos_6_10_anios,4053,5624,72.07
+Cerrillos,ninos_6m_5basico,4640,6342,73.16
+Cerrillos,otras_prioridades,5669,743,762.99
+Cerrillos,salud_privado,123,101,121.78
+Cerrillos,salud_publico,776,408,190.2
+Cerrillos,trab_avicolas_cerdos,196,201,97.51
+Cerrillos,trab_educacion,940,988,95.14
+Cerro Navia,adultos_60_mas,17392,27484,63.28
+Cerro Navia,cronicos_11_59,22127,12895,171.59
+Cerro Navia,cuidadores_adulto_mayor_eleam,353,319,110.66
+Cerro Navia,embarazadas,791,1320,59.92
+Cerro Navia,estrategia_capullo,354,408,86.76
+Cerro Navia,ninos_6_10_anios,6100,8394,72.67
+Cerro Navia,ninos_6m_5basico,6533,9444,69.18
+Cerro Navia,otras_prioridades,1272,1420,89.58
+Cerro Navia,salud_privado,94,85,110.59
+Cerro Navia,salud_publico,956,774,123.51
+Cerro Navia,trab_avicolas_cerdos,186,74,251.35
+Cerro Navia,trab_educacion,1109,1398,79.33
+Colina,adultos_60_mas,13846,21081,65.68
+Colina,cronicos_11_59,11794,9425,125.14
+Colina,cuidadores_adulto_mayor_eleam,454,162,280.25
+Colina,embarazadas,1434,2018,71.06
+Colina,estrategia_capullo,98,639,15.34
+Colina,ninos_6_10_anios,12927,16664,77.57
+Colina,ninos_6m_5basico,13953,18843,74.05
+Colina,otras_prioridades,2786,1516,183.77
+Colina,salud_privado,1122,796,140.95
+Colina,salud_publico,1147,975,117.64
+Colina,trab_avicolas_cerdos,117,191,61.26
+Colina,trab_educacion,2375,2973,79.89
+Conchalí,adultos_60_mas,18797,29139,64.51
+Conchalí,cronicos_11_59,9099,8019,113.47
+Conchalí,cuidadores_adulto_mayor_eleam,1118,716,156.15
+Conchalí,embarazadas,725,1054,68.79
+Conchalí,estrategia_capullo,71,351,20.23
+Conchalí,ninos_6_10_anios,6821,7826,87.16
+Conchalí,ninos_6m_5basico,6555,8740,75.0
+Conchalí,otras_prioridades,1450,2031,71.39
+Conchalí,salud_privado,247,183,134.97
+Conchalí,salud_publico,1233,1197,103.01
+Conchalí,trab_avicolas_cerdos,8,19,42.11
+Conchalí,trab_educacion,1281,1456,87.98
+Curacaví,adultos_60_mas,5126,7480,68.53
+Curacaví,cronicos_11_59,3344,2018,165.71
+Curacaví,cuidadores_adulto_mayor_eleam,243,120,202.5
+Curacaví,embarazadas,209,308,67.86
+Curacaví,estrategia_capullo,81,93,87.1
+Curacaví,ninos_6_10_anios,2312,2455,94.18
+Curacaví,ninos_6m_5basico,2141,2726,78.54
+Curacaví,otras_prioridades,578,467,123.77
+Curacaví,salud_privado,65,83,78.31
+Curacaví,salud_publico,371,300,123.67
+Curacaví,trab_avicolas_cerdos,102,97,105.15
+Curacaví,trab_educacion,478,608,78.62
+El Bosque,adultos_60_mas,23786,34087,69.78
+El Bosque,cronicos_11_59,20195,15638,129.14
+El Bosque,cuidadores_adulto_mayor_eleam,857,285,300.7
+El Bosque,embarazadas,1157,1313,88.12
+El Bosque,estrategia_capullo,371,435,85.29
+El Bosque,ninos_6_10_anios,11766,10946,107.49
+El Bosque,ninos_6m_5basico,9792,11558,84.72
+El Bosque,otras_prioridades,7207,3299,218.46
+El Bosque,salud_privado,408,214,190.65
+El Bosque,salud_publico,2213,1921,115.2
+El Bosque,trab_avicolas_cerdos,46,8,575.0
+El Bosque,trab_educacion,2492,2215,112.51
+El Monte,adultos_60_mas,4768,7165,66.55
+El Monte,cronicos_11_59,3992,3210,124.36
+El Monte,cuidadores_adulto_mayor_eleam,79,47,168.09
+El Monte,embarazadas,247,302,81.79
+El Monte,estrategia_capullo,114,117,97.44
+El Monte,ninos_6_10_anios,2444,2924,83.58
+El Monte,ninos_6m_5basico,1989,3413,58.28
+El Monte,otras_prioridades,564,560,100.71
+El Monte,salud_privado,17,16,106.25
+El Monte,salud_publico,402,465,86.45
+El Monte,trab_avicolas_cerdos,759,664,114.31
+El Monte,trab_educacion,660,736,89.67
+Estación Central,adultos_60_mas,15976,40886,39.07
+Estación Central,cronicos_11_59,16662,12414,134.22
+Estación Central,cuidadores_adulto_mayor_eleam,506,475,106.53
+Estación Central,embarazadas,1217,2044,59.54
+Estación Central,estrategia_capullo,547,555,98.56
+Estación Central,ninos_6_10_anios,7729,11256,68.67
+Estación Central,ninos_6m_5basico,8786,13467,65.24
+Estación Central,otras_prioridades,4880,1393,350.32
+Estación Central,salud_privado,4124,4220,97.73
+Estación Central,salud_publico,1648,1156,142.56
+Estación Central,trab_avicolas_cerdos,25,7,357.14
+Estación Central,trab_educacion,1336,1582,84.45
+Huechuraba,adultos_60_mas,12301,17732,69.37
+Huechuraba,cronicos_11_59,13925,12222,113.93
+Huechuraba,cuidadores_adulto_mayor_eleam,337,412,81.8
+Huechuraba,embarazadas,785,797,98.49
+Huechuraba,estrategia_capullo,435,324,134.26
+Huechuraba,ninos_6_10_anios,5816,8832,65.85
+Huechuraba,ninos_6m_5basico,5571,9203,60.53
+Huechuraba,otras_prioridades,1345,2423,55.51
+Huechuraba,salud_privado,755,290,260.34
+Huechuraba,salud_publico,872,917,95.09
+Huechuraba,trab_avicolas_cerdos,77,35,220.0
+Huechuraba,trab_educacion,1364,1304,104.6
+Independencia,adultos_60_mas,14411,26233,54.93
+Independencia,cronicos_11_59,8705,6431,135.36
+Independencia,cuidadores_adulto_mayor_eleam,1420,1023,138.81
+Independencia,embarazadas,1001,1208,82.86
+Independencia,estrategia_capullo,121,333,36.34
+Independencia,ninos_6_10_anios,6917,7556,91.54
+Independencia,ninos_6m_5basico,7088,9917,71.47
+Independencia,otras_prioridades,2705,3004,90.05
+Independencia,salud_privado,4456,4416,100.91
+Independencia,salud_publico,7401,6804,108.77
+Independencia,trab_avicolas_cerdos,10,23,43.48
+Independencia,trab_educacion,1280,1140,112.28
+Isla de Maipo,adultos_60_mas,5471,7230,75.67
+Isla de Maipo,cronicos_11_59,3652,2518,145.04
+Isla de Maipo,cuidadores_adulto_mayor_eleam,199,148,134.46
+Isla de Maipo,embarazadas,273,355,76.9
+Isla de Maipo,estrategia_capullo,34,78,43.59
+Isla de Maipo,ninos_6_10_anios,2398,2934,81.73
+Isla de Maipo,ninos_6m_5basico,2587,3182,81.3
+Isla de Maipo,otras_prioridades,3171,1640,193.35
+Isla de Maipo,salud_privado,48,38,126.32
+Isla de Maipo,salud_publico,435,387,112.4
+Isla de Maipo,trab_avicolas_cerdos,110,147,74.83
+Isla de Maipo,trab_educacion,658,631,104.28
+La Cisterna,adultos_60_mas,16531,22530,73.37
+La Cisterna,cronicos_11_59,16469,20403,80.72
+La Cisterna,cuidadores_adulto_mayor_eleam,954,324,294.44
+La Cisterna,embarazadas,559,927,60.3
+La Cisterna,estrategia_capullo,560,294,190.48
+La Cisterna,ninos_6_10_anios,6780,5639,120.23
+La Cisterna,ninos_6m_5basico,5219,6149,84.88
+La Cisterna,otras_prioridades,2412,5686,42.42
+La Cisterna,salud_privado,513,398,128.89
+La Cisterna,salud_publico,828,626,132.27
+La Cisterna,trab_avicolas_cerdos,354,350,101.14
+La Cisterna,trab_educacion,1255,1239,101.29
+La Florida,adultos_60_mas,61196,86582,70.68
+La Florida,cronicos_11_59,27766,17017,163.17
+La Florida,cuidadores_adulto_mayor_eleam,1328,1407,94.39
+La Florida,embarazadas,2303,3171,72.63
+La Florida,estrategia_capullo,158,981,16.11
+La Florida,ninos_6_10_anios,21322,22990,92.74
+La Florida,ninos_6m_5basico,19990,25093,79.66
+La Florida,otras_prioridades,2622,2569,102.06
+La Florida,salud_privado,4744,3906,121.45
+La Florida,salud_publico,5614,5154,108.93
+La Florida,trab_avicolas_cerdos,50,40,125.0
+La Florida,trab_educacion,4949,4822,102.63
+La Granja,adultos_60_mas,17315,24648,70.25
+La Granja,cronicos_11_59,10595,8779,120.69
+La Granja,cuidadores_adulto_mayor_eleam,264,172,153.49
+La Granja,embarazadas,730,938,77.83
+La Granja,estrategia_capullo,298,336,88.69
+La Granja,ninos_6_10_anios,7009,7015,99.91
+La Granja,ninos_6m_5basico,6882,7972,86.33
+La Granja,otras_prioridades,1325,1427,92.85
+La Granja,salud_privado,149,161,92.55
+La Granja,salud_publico,1169,1165,100.34
+La Granja,trab_avicolas_cerdos,22,17,129.41
+La Granja,trab_educacion,1608,1520,105.79
+La Pintana,adultos_60_mas,17690,30994,57.08
+La Pintana,cronicos_11_59,10899,9853,110.62
+La Pintana,cuidadores_adulto_mayor_eleam,431,738,58.4
+La Pintana,embarazadas,1068,1713,62.35
+La Pintana,estrategia_capullo,99,675,14.67
+La Pintana,ninos_6_10_anios,10110,13888,72.8
+La Pintana,ninos_6m_5basico,9103,15259,59.66
+La Pintana,otras_prioridades,2138,1502,142.34
+La Pintana,salud_privado,243,230,105.65
+La Pintana,salud_publico,1479,1507,98.14
+La Pintana,trab_avicolas_cerdos,415,756,54.89
+La Pintana,trab_educacion,2603,2745,94.83
+La Reina,adultos_60_mas,17462,22793,76.61
+La Reina,cronicos_11_59,6715,3909,171.78
+La Reina,cuidadores_adulto_mayor_eleam,898,712,126.12
+La Reina,embarazadas,319,559,57.07
+La Reina,estrategia_capullo,106,207,51.21
+La Reina,ninos_6_10_anios,7794,5587,139.5
+La Reina,ninos_6m_5basico,5319,5755,92.42
+La Reina,otras_prioridades,3461,1450,238.69
+La Reina,salud_privado,812,708,114.69
+La Reina,salud_publico,2499,3198,78.14
+La Reina,trab_avicolas_cerdos,14,9,155.56
+La Reina,trab_educacion,1965,1997,98.4
+Lampa,adultos_60_mas,8523,14909,57.17
+Lampa,cronicos_11_59,8727,5919,147.44
+Lampa,cuidadores_adulto_mayor_eleam,342,268,127.61
+Lampa,embarazadas,1056,1586,66.58
+Lampa,estrategia_capullo,137,564,24.29
+Lampa,ninos_6_10_anios,8480,11857,71.52
+Lampa,ninos_6m_5basico,8696,13436,64.72
+Lampa,otras_prioridades,745,715,104.2
+Lampa,salud_privado,203,92,220.65
+Lampa,salud_publico,731,686,106.56
+Lampa,trab_avicolas_cerdos,82,46,178.26
+Lampa,trab_educacion,1751,1574,111.25
+Las Condes,adultos_60_mas,50005,81643,61.25
+Las Condes,cronicos_11_59,12000,9995,120.06
+Las Condes,cuidadores_adulto_mayor_eleam,1930,2397,80.52
+Las Condes,embarazadas,1386,2716,51.03
+Las Condes,estrategia_capullo,244,663,36.8
+Las Condes,ninos_6_10_anios,11936,15678,76.13
+Las Condes,ninos_6m_5basico,15911,18781,84.72
+Las Condes,otras_prioridades,5155,5055,101.98
+Las Condes,salud_privado,11325,10621,106.63
+Las Condes,salud_publico,1507,2487,60.6
+Las Condes,trab_avicolas_cerdos,19,18,105.56
+Las Condes,trab_educacion,3275,3008,108.88
+Lo Barnechea,adultos_60_mas,13278,18452,71.96
+Lo Barnechea,cronicos_11_59,5191,3546,146.39
+Lo Barnechea,cuidadores_adulto_mayor_eleam,677,507,133.53
+Lo Barnechea,embarazadas,537,1018,52.75
+Lo Barnechea,estrategia_capullo,107,375,28.53
+Lo Barnechea,ninos_6_10_anios,7172,10435,68.73
+Lo Barnechea,ninos_6m_5basico,7018,9604,73.07
+Lo Barnechea,otras_prioridades,862,680,126.76
+Lo Barnechea,salud_privado,2759,2187,126.15
+Lo Barnechea,salud_publico,673,433,155.43
+Lo Barnechea,trab_avicolas_cerdos,15,21,71.43
+Lo Barnechea,trab_educacion,2269,1959,115.82
+Lo Espejo,adultos_60_mas,14426,19858,72.65
+Lo Espejo,cronicos_11_59,9329,6914,134.93
+Lo Espejo,cuidadores_adulto_mayor_eleam,408,226,180.53
+Lo Espejo,embarazadas,713,838,85.08
+Lo Espejo,estrategia_capullo,51,243,20.99
+Lo Espejo,ninos_6_10_anios,4347,6221,69.88
+Lo Espejo,ninos_6m_5basico,5551,6870,80.8
+Lo Espejo,otras_prioridades,2671,1817,147.0
+Lo Espejo,salud_privado,143,99,144.44
+Lo Espejo,salud_publico,1036,818,126.65
+Lo Espejo,trab_avicolas_cerdos,6,12,50.0
+Lo Espejo,trab_educacion,1270,1145,110.92
+Lo Prado,adultos_60_mas,19553,22624,86.43
+Lo Prado,cronicos_11_59,14000,10990,127.39
+Lo Prado,cuidadores_adulto_mayor_eleam,1875,687,272.93
+Lo Prado,embarazadas,724,746,97.05
+Lo Prado,estrategia_capullo,48,207,23.19
+Lo Prado,ninos_6_10_anios,5084,5739,88.59
+Lo Prado,ninos_6m_5basico,5693,6222,91.5
+Lo Prado,otras_prioridades,2230,1361,163.85
+Lo Prado,salud_privado,205,132,155.3
+Lo Prado,salud_publico,1123,1040,107.98
+Lo Prado,trab_avicolas_cerdos,8,3,266.67
+Lo Prado,trab_educacion,1069,1142,93.61
+Macul,adultos_60_mas,18532,31113,59.56
+Macul,cronicos_11_59,11248,7303,154.02
+Macul,cuidadores_adulto_mayor_eleam,1162,563,206.39
+Macul,embarazadas,602,1021,58.96
+Macul,estrategia_capullo,188,282,66.67
+Macul,ninos_6_10_anios,5735,6948,82.54
+Macul,ninos_6m_5basico,5574,7997,69.7
+Macul,otras_prioridades,2607,1471,177.23
+Macul,salud_privado,1982,2361,83.95
+Macul,salud_publico,1103,996,110.74
+Macul,trab_avicolas_cerdos,22,19,115.79
+Macul,trab_educacion,1454,1559,93.26
+Maipú,adultos_60_mas,63811,98798,64.59
+Maipú,cronicos_11_59,44761,34168,131.0
+Maipú,cuidadores_adulto_mayor_eleam,763,676,112.87
+Maipú,embarazadas,2126,3776,56.3
+Maipú,estrategia_capullo,376,1176,31.97
+Maipú,ninos_6_10_anios,24648,35617,69.2
+Maipú,ninos_6m_5basico,21194,37645,56.3
+Maipú,otras_prioridades,5199,5384,96.56
+Maipú,salud_privado,1591,1891,84.14
+Maipú,salud_publico,6179,5429,113.81
+Maipú,trab_avicolas_cerdos,198,39,507.69
+Maipú,trab_educacion,4541,4919,92.32
+María Pinto,adultos_60_mas,2508,2998,83.66
+María Pinto,cronicos_11_59,1214,1128,107.62
+María Pinto,cuidadores_adulto_mayor_eleam,63,39,161.54
+María Pinto,embarazadas,90,139,64.75
+María Pinto,estrategia_capullo,2,45,4.44
+María Pinto,ninos_6_10_anios,924,1029,89.8
+María Pinto,ninos_6m_5basico,688,1087,63.29
+María Pinto,otras_prioridades,274,268,102.24
+María Pinto,salud_privado,22,16,137.5
+María Pinto,salud_publico,144,144,100.0
+María Pinto,trab_avicolas_cerdos,78,66,118.18
+María Pinto,trab_educacion,212,223,95.07
+Melipilla,adultos_60_mas,17455,27976,62.39
+Melipilla,cronicos_11_59,9048,8096,111.76
+Melipilla,cuidadores_adulto_mayor_eleam,518,441,117.46
+Melipilla,embarazadas,1578,1528,103.27
+Melipilla,estrategia_capullo,197,444,44.37
+Melipilla,ninos_6_10_anios,8174,9690,84.36
+Melipilla,ninos_6m_5basico,8464,10671,79.32
+Melipilla,otras_prioridades,1953,1287,151.75
+Melipilla,salud_privado,672,748,89.84
+Melipilla,salud_publico,2198,1906,115.32
+Melipilla,trab_avicolas_cerdos,1597,1703,93.78
+Melipilla,trab_educacion,1932,2202,87.74
+Padre Hurtado,adultos_60_mas,7929,12276,64.59
+Padre Hurtado,cronicos_11_59,5989,5558,107.75
+Padre Hurtado,cuidadores_adulto_mayor_eleam,1144,517,221.28
+Padre Hurtado,embarazadas,360,868,41.47
+Padre Hurtado,estrategia_capullo,327,279,117.2
+Padre Hurtado,ninos_6_10_anios,4909,5547,88.5
+Padre Hurtado,ninos_6m_5basico,4616,6590,70.05
+Padre Hurtado,otras_prioridades,679,243,279.42
+Padre Hurtado,salud_privado,249,164,151.83
+Padre Hurtado,salud_publico,622,448,138.84
+Padre Hurtado,trab_avicolas_cerdos,72,0,inf
+Padre Hurtado,trab_educacion,1161,1086,106.91
+Paine,adultos_60_mas,10206,14580,70.0
+Paine,cronicos_11_59,8401,6866,122.36
+Paine,cuidadores_adulto_mayor_eleam,535,427,125.29
+Paine,embarazadas,584,825,70.79
+Paine,estrategia_capullo,201,225,89.33
+Paine,ninos_6_10_anios,5451,6185,88.13
+Paine,ninos_6m_5basico,5085,6472,78.57
+Paine,otras_prioridades,1672,1802,92.79
+Paine,salud_privado,128,174,73.56
+Paine,salud_publico,705,634,111.2
+Paine,trab_avicolas_cerdos,356,166,214.46
+Paine,trab_educacion,1411,1373,102.77
+Pedro Aguirre Cerda,adultos_60_mas,16417,24150,67.98
+Pedro Aguirre Cerda,cronicos_11_59,7378,6039,122.17
+Pedro Aguirre Cerda,cuidadores_adulto_mayor_eleam,322,352,91.48
+Pedro Aguirre Cerda,embarazadas,687,757,90.75
+Pedro Aguirre Cerda,estrategia_capullo,258,237,108.86
+Pedro Aguirre Cerda,ninos_6_10_anios,5143,5785,88.9
+Pedro Aguirre Cerda,ninos_6m_5basico,5673,6401,88.63
+Pedro Aguirre Cerda,otras_prioridades,1051,921,114.12
+Pedro Aguirre Cerda,salud_privado,272,290,93.79
+Pedro Aguirre Cerda,salud_publico,1052,905,116.24
+Pedro Aguirre Cerda,trab_avicolas_cerdos,14,9,155.56
+Pedro Aguirre Cerda,trab_educacion,1417,1609,88.07
+Peñaflor,adultos_60_mas,11351,17667,64.25
+Peñaflor,cronicos_11_59,6557,5350,122.56
+Peñaflor,cuidadores_adulto_mayor_eleam,817,369,221.41
+Peñaflor,embarazadas,700,773,90.56
+Peñaflor,estrategia_capullo,302,246,122.76
+Peñaflor,ninos_6_10_anios,5648,7352,76.82
+Peñaflor,ninos_6m_5basico,4897,7998,61.23
+Peñaflor,otras_prioridades,1056,1338,78.92
+Peñaflor,salud_privado,208,100,208.0
+Peñaflor,salud_publico,1139,1230,92.6
+Peñaflor,trab_avicolas_cerdos,260,255,101.96
+Peñaflor,trab_educacion,1458,1442,101.11
+Peñalolén,adultos_60_mas,31681,46812,67.68
+Peñalolén,cronicos_11_59,22958,17893,128.31
+Peñalolén,cuidadores_adulto_mayor_eleam,1274,1299,98.08
+Peñalolén,embarazadas,1161,1959,59.26
+Peñalolén,estrategia_capullo,154,639,24.1
+Peñalolén,ninos_6_10_anios,13368,17811,75.05
+Peñalolén,ninos_6m_5basico,12109,18031,67.16
+Peñalolén,otras_prioridades,5359,3493,153.42
+Peñalolén,salud_privado,654,864,75.69
+Peñalolén,salud_publico,3720,3887,95.7
+Peñalolén,trab_avicolas_cerdos,16,11,145.45
+Peñalolén,trab_educacion,3443,3538,97.31
+Pirque,adultos_60_mas,4425,5749,76.97
+Pirque,cronicos_11_59,1911,1581,120.87
+Pirque,cuidadores_adulto_mayor_eleam,252,244,103.28
+Pirque,embarazadas,156,294,53.06
+Pirque,estrategia_capullo,16,102,15.69
+Pirque,ninos_6_10_anios,1727,2169,79.62
+Pirque,ninos_6m_5basico,1647,2361,69.76
+Pirque,otras_prioridades,337,230,146.52
+Pirque,salud_privado,49,45,108.89
+Pirque,salud_publico,411,415,99.04
+Pirque,trab_avicolas_cerdos,123,187,65.78
+Pirque,trab_educacion,556,439,126.65
+Providencia,adultos_60_mas,26234,36474,71.93
+Providencia,cronicos_11_59,8055,5841,137.9
+Providencia,cuidadores_adulto_mayor_eleam,1537,826,186.08
+Providencia,embarazadas,761,1247,61.03
+Providencia,estrategia_capullo,125,423,29.55
+Providencia,ninos_6_10_anios,9864,5536,178.18
+Providencia,ninos_6m_5basico,8108,8364,96.94
+Providencia,otras_prioridades,3876,2725,142.24
+Providencia,salud_privado,12265,12503,98.1
+Providencia,salud_publico,9119,9480,96.19
+Providencia,trab_avicolas_cerdos,78,45,173.33
+Providencia,trab_educacion,2448,2184,112.09
+Pudahuel,adultos_60_mas,28827,39557,72.87
+Pudahuel,cronicos_11_59,38041,28981,131.26
+Pudahuel,cuidadores_adulto_mayor_eleam,476,325,146.46
+Pudahuel,embarazadas,1558,1804,86.36
+Pudahuel,estrategia_capullo,170,534,31.84
+Pudahuel,ninos_6_10_anios,12520,17234,72.65
+Pudahuel,ninos_6m_5basico,11570,19064,60.69
+Pudahuel,otras_prioridades,5712,4089,139.69
+Pudahuel,salud_privado,380,436,87.16
+Pudahuel,salud_publico,2572,2197,117.07
+Pudahuel,trab_avicolas_cerdos,217,212,102.36
+Pudahuel,trab_educacion,2198,2273,96.7
+Puente Alto,adultos_60_mas,59100,95186,62.09
+Puente Alto,cronicos_11_59,36704,32464,113.06
+Puente Alto,cuidadores_adulto_mayor_eleam,2641,2060,128.2
+Puente Alto,embarazadas,3094,4657,66.44
+Puente Alto,estrategia_capullo,1481,1629,90.91
+Puente Alto,ninos_6_10_anios,30262,45624,66.33
+Puente Alto,ninos_6m_5basico,26401,49420,53.42
+Puente Alto,otras_prioridades,4413,9823,44.93
+Puente Alto,salud_privado,1403,1522,92.18
+Puente Alto,salud_publico,9519,9096,104.65
+Puente Alto,trab_avicolas_cerdos,165,114,144.74
+Puente Alto,trab_educacion,6895,7596,90.77
+Quilicura,adultos_60_mas,19679,29019,67.81
+Quilicura,cronicos_11_59,22228,15122,146.99
+Quilicura,cuidadores_adulto_mayor_eleam,595,285,208.77
+Quilicura,embarazadas,1481,1913,77.42
+Quilicura,estrategia_capullo,599,690,86.81
+Quilicura,ninos_6_10_anios,12992,20175,64.4
+Quilicura,ninos_6m_5basico,12831,20611,62.25
+Quilicura,otras_prioridades,5404,2224,242.99
+Quilicura,salud_privado,416,234,177.78
+Quilicura,salud_publico,1217,1161,104.82
+Quilicura,trab_avicolas_cerdos,10,10,100.0
+Quilicura,trab_educacion,2512,2373,105.86
+Quinta Normal,adultos_60_mas,15904,28808,55.21
+Quinta Normal,cronicos_11_59,10951,7974,137.33
+Quinta Normal,cuidadores_adulto_mayor_eleam,565,419,134.84
+Quinta Normal,embarazadas,797,1249,63.81
+Quinta Normal,estrategia_capullo,71,345,20.58
+Quinta Normal,ninos_6_10_anios,8343,7698,108.38
+Quinta Normal,ninos_6m_5basico,6850,8598,79.67
+Quinta Normal,otras_prioridades,959,1244,77.09
+Quinta Normal,salud_privado,182,213,85.45
+Quinta Normal,salud_publico,3879,3794,102.24
+Quinta Normal,trab_avicolas_cerdos,5,7,71.43
+Quinta Normal,trab_educacion,1643,1558,105.46
+Recoleta,adultos_60_mas,20784,39419,52.73
+Recoleta,cronicos_11_59,13113,11798,111.15
+Recoleta,cuidadores_adulto_mayor_eleam,971,1027,94.55
+Recoleta,embarazadas,1154,1394,82.78
+Recoleta,estrategia_capullo,61,381,16.01
+Recoleta,ninos_6_10_anios,9679,10953,88.37
+Recoleta,ninos_6m_5basico,9162,12335,74.28
+Recoleta,otras_prioridades,2217,2438,90.94
+Recoleta,salud_privado,3590,3652,98.3
+Recoleta,salud_publico,1656,1592,104.02
+Recoleta,trab_avicolas_cerdos,77,72,106.94
+Recoleta,trab_educacion,1916,1861,102.96
+Renca,adultos_60_mas,17102,27707,61.72
+Renca,cronicos_11_59,22103,13703,161.3
+Renca,cuidadores_adulto_mayor_eleam,212,291,72.85
+Renca,embarazadas,1050,1399,75.05
+Renca,estrategia_capullo,205,411,49.88
+Renca,ninos_6_10_anios,8226,11202,73.43
+Renca,ninos_6m_5basico,8171,12314,66.36
+Renca,otras_prioridades,2989,3781,79.05
+Renca,salud_privado,49,114,42.98
+Renca,salud_publico,1039,1263,82.26
+Renca,trab_avicolas_cerdos,16,28,57.14
+Renca,trab_educacion,1723,1942,88.72
+San Bernardo,adultos_60_mas,33264,52657,63.17
+San Bernardo,cronicos_11_59,33100,25319,130.73
+San Bernardo,cuidadores_adulto_mayor_eleam,1159,905,128.07
+San Bernardo,embarazadas,1947,3060,63.63
+San Bernardo,estrategia_capullo,965,1047,92.17
+San Bernardo,ninos_6_10_anios,18112,25038,72.34
+San Bernardo,ninos_6m_5basico,16330,27117,60.22
+San Bernardo,otras_prioridades,6811,7970,85.46
+San Bernardo,salud_privado,1317,1196,110.12
+San Bernardo,salud_publico,4222,4097,103.05
+San Bernardo,trab_avicolas_cerdos,630,1039,60.64
+San Bernardo,trab_educacion,3905,4020,97.14
+San Joaquín,adultos_60_mas,15477,23730,65.22
+San Joaquín,cronicos_11_59,14065,10045,140.02
+San Joaquín,cuidadores_adulto_mayor_eleam,888,907,97.91
+San Joaquín,embarazadas,468,749,62.48
+San Joaquín,estrategia_capullo,271,228,118.86
+San Joaquín,ninos_6_10_anios,4233,5421,78.09
+San Joaquín,ninos_6m_5basico,4651,6149,75.64
+San Joaquín,otras_prioridades,3378,3374,100.12
+San Joaquín,salud_privado,597,466,128.11
+San Joaquín,salud_publico,805,733,109.82
+San Joaquín,trab_avicolas_cerdos,47,49,95.92
+San Joaquín,trab_educacion,893,1134,78.75
+San José de Maipo,adultos_60_mas,2921,3901,74.88
+San José de Maipo,cronicos_11_59,1663,1303,127.63
+San José de Maipo,cuidadores_adulto_mayor_eleam,136,143,95.1
+San José de Maipo,embarazadas,63,115,54.78
+San José de Maipo,estrategia_capullo,13,21,61.9
+San José de Maipo,ninos_6_10_anios,1023,1199,85.32
+San José de Maipo,ninos_6m_5basico,874,1269,68.87
+San José de Maipo,otras_prioridades,293,100,293.0
+San José de Maipo,salud_privado,40,51,78.43
+San José de Maipo,salud_publico,666,600,111.0
+San José de Maipo,trab_avicolas_cerdos,6,5,120.0
+San José de Maipo,trab_educacion,223,284,78.52
+San Miguel,adultos_60_mas,19431,28430,68.35
+San Miguel,cronicos_11_59,15434,11494,134.28
+San Miguel,cuidadores_adulto_mayor_eleam,1778,672,264.58
+San Miguel,embarazadas,921,1701,54.14
+San Miguel,estrategia_capullo,1367,474,288.4
+San Miguel,ninos_6_10_anios,7353,7011,104.88
+San Miguel,ninos_6m_5basico,7445,8992,82.8
+San Miguel,otras_prioridades,4317,4855,88.92
+San Miguel,salud_privado,617,1243,49.64
+San Miguel,salud_publico,7021,6352,110.53
+San Miguel,trab_avicolas_cerdos,42,7,600.0
+San Miguel,trab_educacion,1968,1779,110.62
+San Pedro,adultos_60_mas,1894,2781,68.1
+San Pedro,cronicos_11_59,1342,841,159.57
+San Pedro,cuidadores_adulto_mayor_eleam,33,28,117.86
+San Pedro,embarazadas,126,143,88.11
+San Pedro,estrategia_capullo,35,57,61.4
+San Pedro,ninos_6_10_anios,765,772,99.09
+San Pedro,ninos_6m_5basico,800,913,87.62
+San Pedro,otras_prioridades,313,313,100.0
+San Pedro,salud_privado,22,6,366.67
+San Pedro,salud_publico,178,146,121.92
+San Pedro,trab_avicolas_cerdos,1343,874,153.66
+San Pedro,trab_educacion,208,240,86.67
+San Ramón,adultos_60_mas,14071,18683,75.31
+San Ramón,cronicos_11_59,17379,11344,153.2
+San Ramón,cuidadores_adulto_mayor_eleam,478,346,138.15
+San Ramón,embarazadas,812,693,117.17
+San Ramón,estrategia_capullo,409,237,172.57
+San Ramón,ninos_6_10_anios,5392,4825,111.75
+San Ramón,ninos_6m_5basico,4150,5505,75.39
+San Ramón,otras_prioridades,8278,2301,359.76
+San Ramón,salud_privado,106,84,126.19
+San Ramón,salud_publico,3307,2862,115.55
+San Ramón,trab_avicolas_cerdos,6,4,150.0
+San Ramón,trab_educacion,1001,999,100.2
+Santiago,adultos_60_mas,40392,68210,59.22
+Santiago,cronicos_11_59,30678,27925,109.86
+Santiago,cuidadores_adulto_mayor_eleam,2100,1112,188.85
+Santiago,embarazadas,3086,3978,77.58
+Santiago,estrategia_capullo,361,1209,29.86
+Santiago,ninos_6_10_anios,19321,18508,104.39
+Santiago,ninos_6m_5basico,19854,26731,74.27
+Santiago,otras_prioridades,21526,24020,89.62
+Santiago,salud_privado,7550,7309,103.3
+Santiago,salud_publico,13239,12301,107.63
+Santiago,trab_avicolas_cerdos,87,177,49.15
+Santiago,trab_educacion,4168,3858,108.04
+Talagante,adultos_60_mas,9772,14052,69.54
+Talagante,cronicos_11_59,6440,5932,108.56
+Talagante,cuidadores_adulto_mayor_eleam,393,385,102.08
+Talagante,embarazadas,378,717,52.72
+Talagante,estrategia_capullo,201,222,90.54
+Talagante,ninos_6_10_anios,5452,5781,94.31
+Talagante,ninos_6m_5basico,4848,6397,75.79
+Talagante,otras_prioridades,1275,1202,106.07
+Talagante,salud_privado,216,195,110.77
+Talagante,salud_publico,1494,1131,132.1
+Talagante,trab_avicolas_cerdos,125,302,41.39
+Talagante,trab_educacion,1463,1459,100.27
+Tiltil,adultos_60_mas,2747,3852,71.31
+Tiltil,cronicos_11_59,1917,1441,133.03
+Tiltil,cuidadores_adulto_mayor_eleam,72,54,133.33
+Tiltil,embarazadas,145,193,75.13
+Tiltil,estrategia_capullo,59,90,65.56
+Tiltil,ninos_6_10_anios,1449,1479,97.97
+Tiltil,ninos_6m_5basico,1378,1668,82.61
+Tiltil,otras_prioridades,709,373,190.08
+Tiltil,salud_privado,27,28,96.43
+Tiltil,salud_publico,331,326,101.53
+Tiltil,trab_avicolas_cerdos,64,56,114.29
+Tiltil,trab_educacion,436,454,96.04
+Vitacura,adultos_60_mas,18153,25287,71.79
+Vitacura,cronicos_11_59,3610,2359,153.03
+Vitacura,cuidadores_adulto_mayor_eleam,1080,841,128.42
+Vitacura,embarazadas,584,1053,55.46
+Vitacura,estrategia_capullo,64,282,22.7
+Vitacura,ninos_6_10_anios,7910,5320,148.68
+Vitacura,ninos_6m_5basico,6079,6133,99.12
+Vitacura,otras_prioridades,1475,694,212.54
+Vitacura,salud_privado,7432,5780,128.58
+Vitacura,salud_publico,771,542,142.25
+Vitacura,trab_avicolas_cerdos,15,4,375.0
+Vitacura,trab_educacion,1800,1805,99.72
+Ñuñoa,adultos_60_mas,35671,57924,61.58
+Ñuñoa,cronicos_11_59,14546,12016,121.06
+Ñuñoa,cuidadores_adulto_mayor_eleam,2279,2211,103.08
+Ñuñoa,embarazadas,1110,1988,55.84
+Ñuñoa,estrategia_capullo,277,594,46.63
+Ñuñoa,ninos_6_10_anios,9758,11212,87.03
+Ñuñoa,ninos_6m_5basico,10632,14995,70.9
+Ñuñoa,otras_prioridades,10834,11665,92.88
+Ñuñoa,salud_privado,2652,2528,104.91
+Ñuñoa,salud_publico,2398,1950,122.97
+Ñuñoa,trab_avicolas_cerdos,11,13,84.62
+Ñuñoa,trab_educacion,2954,2832,104.31
