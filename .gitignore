@@ -6,10 +6,18 @@ Thumbs.db
 
 .streamlit/secrets.toml
 
+data/
+NA/
+
 duplicados_unicos_influenza.xlsx
 Influenza 2024 - Dashboard Campaña.rar
 
+calculo_coverturas.py
+cobertura_excel.py
+read_influenza_2024.py
+read_pop_obj.py
+
+output/*.xlsx
+output/denominador_influenza_2024.csv
 output/numerador_influenza_2024_rm.csv
 output/sin_filtro/
-
-NA/
