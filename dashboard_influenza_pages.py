@@ -115,6 +115,17 @@ def get_group_summary() -> pd.DataFrame:
     return summary.sort_values("cobertura_pct", ascending=True).reset_index(drop=True)
 
 
+@st.cache_data(show_spinner=False)
+def get_commune_total_summary() -> pd.DataFrame:
+    df = load_data()
+    summary = (
+        df.groupby("Comuna", as_index=False)
+        .agg(vacunados=("vacunados", "sum"), denominador=("denominador", "sum"))
+    )
+    summary["cobertura_pct"] = (summary["vacunados"] / summary["denominador"] * 100).round(2)
+    return summary.sort_values("cobertura_pct", ascending=False).reset_index(drop=True)
+
+
 def dataframe_to_excel_bytes(
     df: pd.DataFrame,
     totals_df: pd.DataFrame | None = None,
@@ -308,6 +319,7 @@ def render_info_box(group_id: str, group_df: pd.DataFrame):
 
 def render_home_page():
     summary = get_group_summary()
+    commune_summary = get_commune_total_summary()
     home_summary = (
         summary[summary["grupo_id"].isin(HOME_GROUP_ORDER)]
         .assign(order=lambda df_: df_["grupo_id"].map({g: i for i, g in enumerate(HOME_GROUP_ORDER)}))
@@ -327,9 +339,32 @@ def render_home_page():
     col2.metric("Población objetivo", format_int(total_denominador))
     col3.metric("Grupos monitoreados", format_int(total_groups))
 
-    st.markdown("### Cobertura (%) segun grupo objetivo")
+    st.markdown("### Gráfico de cobertura (%) según grupo objetivo")
     st.plotly_chart(build_home_chart(home_summary), use_container_width=True)
 
+    st.markdown("### Tabla de cobertura total por comuna")
+    commune_view = commune_summary.rename(
+        columns={
+            "Comuna": "Comuna",
+            "vacunados": "Vacunas administradas",
+            "denominador": "Población objetivo",
+            "cobertura_pct": "Cobertura total (%)",
+        }
+    )
+    st.dataframe(
+        commune_view,
+        use_container_width=True,
+        hide_index=True,
+        height=420,
+        column_config={
+            "Comuna": st.column_config.TextColumn(width="medium"),
+            "Vacunas administradas": st.column_config.NumberColumn(format="%d"),
+            "Población objetivo": st.column_config.NumberColumn(format="%d"),
+            "Cobertura total (%)": st.column_config.NumberColumn(format="%.2f%%"),
+        },
+    )
+
+    st.markdown("### Tabla de cobertura (%) por grupo objetivo")
     summary_view = home_summary.rename(
         columns={
             "Grupo": "Grupo objetivo",
