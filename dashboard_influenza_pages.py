@@ -394,6 +394,7 @@ def render_home_page():
         totals_df=home_totals_df,
         data_sheet_name="Cobertura grupos",
         prepend_sheets={"Indicadores": home_info_df},
+        extra_sheets={"Cobertura comunas": commune_view},
     )
     st.download_button(
         label="Descargar resumen en Excel",
