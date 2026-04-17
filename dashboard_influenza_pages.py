@@ -367,7 +367,7 @@ def render_home_page():
     )
 
     st.markdown("### Tabla de cobertura (%) por grupo objetivo")
-    summary_view = home_summary.rename(
+    summary_view = home_summary.drop(columns=["grupo_id"]).rename(
         columns={
             "Grupo": "Grupo objetivo",
             "vacunados": "Vacunas administradas",
