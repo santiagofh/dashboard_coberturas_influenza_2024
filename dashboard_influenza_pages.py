@@ -330,14 +330,16 @@ def render_home_page():
     st.title("Dashboard Campaña Influenza 2024")
     st.caption("Cobertura de vacunación contra la influenza por grupo objetivo en la Región Metropolitana.")
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
     total_vacunados = summary["vacunados"].sum()
     total_denominador = summary["denominador"].sum()
     total_groups = summary["grupo_id"].nunique()
+    total_cobertura_rm = (total_vacunados / total_denominador * 100) if total_denominador else 0
 
     col1.metric("Vacunas administradas", format_int(total_vacunados))
     col2.metric("Población objetivo", format_int(total_denominador))
     col3.metric("Grupos monitoreados", format_int(total_groups))
+    col4.metric("Cobertura total RM", format_pct(total_cobertura_rm))
 
     st.markdown("### Gráfico de cobertura (%) según grupo objetivo")
     st.plotly_chart(build_home_chart(home_summary), use_container_width=True)
