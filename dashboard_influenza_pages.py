@@ -163,6 +163,15 @@ def format_pct(value: float) -> str:
     return f"{value:.2f}%"
 
 
+def render_provisional_badge():
+    st.markdown(
+        """
+        <div class="provisional-badge">Datos Provisorios</div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def build_commune_table(group_df: pd.DataFrame) -> pd.DataFrame:
     table_df = group_df.rename(
         columns={
@@ -328,6 +337,7 @@ def render_home_page():
     )
 
     st.title("Dashboard Campaña Influenza 2024")
+    render_provisional_badge()
     st.caption("Cobertura de vacunación contra la influenza por grupo objetivo en la Región Metropolitana.")
 
     col1, col2, col3, col4 = st.columns(4)
@@ -416,6 +426,7 @@ def render_group_page(group_id: str):
     group_df = group_df.sort_values("cobertura_pct", ascending=False).reset_index(drop=True)
 
     st.title(f"Campaña Influenza 2024 · {group_name}")
+    render_provisional_badge()
     st.caption("Detalle comunal de cobertura, población objetivo y vacunas administradas.")
 
     total_vacunados = group_df["vacunados"].sum()
