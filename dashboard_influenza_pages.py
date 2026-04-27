@@ -14,7 +14,7 @@ DATA_PATH = OUTPUT_DIR / "cobertura_influenza_2024_rm.csv"
 GROUP_LABELS = {
     "adultos_60_mas": "Adultos de 60 y más",
     "cronicos_11_59": "Enfermos crónicos",
-    "cuidadores_adulto_mayor_eleam": "Cuidadores de adultos mayores y funcionarios de los ELEAM",
+    "cuidadores_adulto_mayor_eleam": "Cuidadores ELEAM",
     "embarazadas": "Embarazadas",
     "estrategia_capullo": "Estrategia Capullo",
     "ninos_6_10_anios": "Niños de 1° a 5° básico",
