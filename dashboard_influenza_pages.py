@@ -64,6 +64,7 @@ HOME_GROUP_ORDER = [
     "trab_educacion",
     "estrategia_capullo",
     "trab_avicolas_cerdos",
+    "cuidadores_adulto_mayor_eleam",
     "ninos_6_10_anios",
     "ninos_6m_5basico",
     "adultos_60_mas",
