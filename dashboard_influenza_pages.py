@@ -29,7 +29,7 @@ GROUP_LABELS = {
 GROUP_INFO = {
     "adultos_60_mas": "Cobertura en población de residencia. Sirve para seguir el avance de protección en personas mayores.",
     "cronicos_11_59": "Cobertura en personas con patologías crónicas. Puede superar 100% por diferencias entre registros administrados y denominador oficial.",
-    "cuidadores_adulto_mayor_eleam": "Cobertura en cuidadores de adultos mayores y funcionarios de los ELEAM, medida con criterio de ocurrencia. De 11 a 59 años.",  # desde 2024 en adelante
+    "cuidadores_adulto_mayor_eleam": "Cuidadores ELEAM",
     "embarazadas": "Cobertura en embarazadas con criterio de residencia, clave para protección materno infantil.",
     "estrategia_capullo": "Cobertura en estrategia Capullo, orientada a proteger entornos de mayor riesgo.",
     "ninos_6_10_anios": "Cobertura en niños de 6 a 10 años con criterio de ocurrencia.",
