@@ -12,9 +12,9 @@ OUTPUT_DIR = BASE_DIR / "output"
 DATA_PATH = OUTPUT_DIR / "cobertura_influenza_2024_rm.csv"
 
 GROUP_LABELS = {
-    "adultos_60_mas": "Adultos de 65 y más",
+    "adultos_60_mas": "Adultos de 60 y más",
     "cronicos_11_59": "Enfermos crónicos",
-    "cuidadores_adulto_mayor_eleam": "Cuidadores de adultos mayores y funcionarios ELEAM",
+    "cuidadores_adulto_mayor_eleam": "Cuidadores de adultos mayores y funcionarios de los ELEAM",
     "embarazadas": "Embarazadas",
     "estrategia_capullo": "Estrategia Capullo",
     "ninos_6_10_anios": "Niños de 1° a 5° básico",
@@ -29,11 +29,11 @@ GROUP_LABELS = {
 GROUP_INFO = {
     "adultos_60_mas": "Cobertura en población de residencia. Sirve para seguir el avance de protección en personas mayores.",
     "cronicos_11_59": "Cobertura en personas con patologías crónicas. Puede superar 100% por diferencias entre registros administrados y denominador oficial.",
-    "cuidadores_adulto_mayor_eleam": "Cobertura en cuidadores y funcionarios de ELEAM, medida con criterio de ocurrencia.",
+    "cuidadores_adulto_mayor_eleam": "Cobertura en cuidadores de adultos mayores y funcionarios de los ELEAM, medida con criterio de ocurrencia. De 11 a 59 años.",  # desde 2024 en adelante
     "embarazadas": "Cobertura en embarazadas con criterio de residencia, clave para protección materno infantil.",
     "estrategia_capullo": "Cobertura en estrategia Capullo, orientada a proteger entornos de mayor riesgo.",
     "ninos_6_10_anios": "Cobertura en niños de 6 a 10 años con criterio de ocurrencia.",
-    "ninos_6m_5basico": "Cobertura en niños desde 6 meses hasta 5° básico con criterio de residencia.",
+    "ninos_6m_5basico": "Cobertura en niños desde 6 meses hasta los 5 años con criterio de residencia.",
     "otras_prioridades": "Cobertura del grupo otras prioridades, medido con criterio de ocurrencia.",
     "salud_privado": "Cobertura en personal de salud del sector privado.",
     "salud_publico": "Cobertura en personal de salud del sector público.",
