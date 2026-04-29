@@ -27,7 +27,7 @@ GROUP_LABELS = {
 }
 
 GROUP_INFO = {
-    "adultos_60_mas": "Cobertura en población de 60 o más años, con criterio de residencia.",
+    "adultos_60_mas": "Cobertura en población de 60 y más años, con criterio de residencia.",
     "cronicos_11_59": "Cobertura en personas con patologías crónicas de 11 a 59 años.",
     "cuidadores_adulto_mayor_eleam": "Cobertura en cuidadores de adultos mayores y funcionarios de los ELEAM, medida con criterio de ocurrencia.",
     "embarazadas": "Cobertura en embarazadas con criterio de residencia, clave para protección materno infantil.",
